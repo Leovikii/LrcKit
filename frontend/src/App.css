@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-glass: rgba(20, 20, 20, 0.7);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+:root {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: transparent;
+  color: #e5e5e5;
+  overflow: hidden;
+  user-select: none;
+}
