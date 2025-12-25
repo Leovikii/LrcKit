@@ -1,27 +1,14 @@
-# Wails build artifacts
 build/bin/
-build/wails.exe
-build/wails
-
-# Node.js dependencies
+frontend/dist/
 frontend/node_modules/
+wailsjs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
 frontend/npm-debug.log
 frontend/yarn-error.log
 frontend/pnpm-debug.log
-
-# IDE settings
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Wails generated
-# wailsjs/
-
-# Environment variables
 .env
 .env.local
